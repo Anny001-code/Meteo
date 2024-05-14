@@ -10,6 +10,10 @@ header {
   display: inline;
 }
 h1 {
+  font-size: 8px;
+  margin-top: 0px;
+}
+.temperature {
   font-size: 15px;
 }
 .weather-type {
@@ -49,8 +53,4 @@ h1 {
   font-size: 88px;
   margin-left: 10px;
   font-weight: bold;
-}
-.weather-app-unit {
-  margin-top: 16px;
-  font-size: 28px;
 }
