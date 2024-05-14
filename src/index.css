@@ -30,7 +30,6 @@ h1 {
 .weather-feeling {
   text-align: center;
   background: white;
-  max-width: 400px;
   margin: 8px auto;
   border-radius: 60px;
   padding: 10px;
@@ -39,7 +38,6 @@ h1 {
   text-align: center;
   color: white;
   background: black;
-  max-width: 400px;
   margin: 8px auto;
   border-radius: 60px;
   padding: 10px;
