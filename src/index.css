@@ -21,35 +21,38 @@ h1 {
   margin-bottom: 180px;
 }
 .weather-index {
-  text-align: center;
-  background: red;
-
-  margin: auto;
-  border-radius: 60px;
-  padding: 10px;
 }
 .weather-feeling {
-  text-align: center;
-  background: white;
-  margin: 8px auto;
-  border-radius: 60px;
-  padding: 10px;
 }
 .weather-app-temperature-container {
   text-align: center;
   color: white;
-  background: black;
-  margin: 8px auto;
-  border-radius: 60px;
-  padding: 10px;
 }
 .weather-app-icon {
   font-size: 44px;
-  margin-top: 22px;
+
   text-align: center;
 }
 .weather-app-temperature {
   font-size: 88px;
-  margin-left: 10px;
+
   font-weight: bold;
+}
+.rounded-corner-1 {
+  background: black;
+  margin: 10px auto;
+  border-radius: 60px;
+  padding: 58px;
+}
+.rounded-corner-2 {
+  background: white;
+  margin: auto;
+  border-radius: 60px;
+  padding: 40px;
+}
+.rounded-corner-3 {
+  background: red;
+  margin: 10px auto;
+  border-radius: 60px;
+  padding: 40px;
 }
