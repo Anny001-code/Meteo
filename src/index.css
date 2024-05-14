@@ -18,7 +18,7 @@ h1 {
 }
 .weather-type {
   text-align: center;
-  margin-bottom: 180px;
+  margin-bottom: 100px;
 }
 .weather-index {
 }
@@ -55,4 +55,11 @@ h1 {
   margin: 10px auto;
   border-radius: 60px;
   padding: 40px;
+}
+.rounded-corner-4 {
+  background: white;
+  margin: auto;
+  max-width: 30px;
+  border-radius: 60px;
+  padding: 2px;
 }
