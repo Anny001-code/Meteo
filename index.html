@@ -9,41 +9,30 @@
 <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
 <title>Meteo App</title>
+
   </head>
   <body>
-    <div class="weather-app">
     <header>
-      <form class="search-form" id="search-form">
-        <input type="search" placeholder="Enter a City.." required 
-        id="search-form-input" class="search-form-input" />
-        <input type="submit" value="Search" class="search-form-button" />
-      </form>
-      <div class="weather-app-data">
-      <div>
-      <h1 class="weather-app-city" id="city">Lagos</h1>
-      <p class="weather-app-details">Tuesday 14:49, scattered clouds 
-        <br>
-        Humidity: <strong>66%</strong>, Wind: <strong>3.13km/h</strong>
+      <div class="List-icon">≡</div>
+      <h1 class="weather-app-city" id="city">COTONOU</h1>
+      <div class="settings-icon">⚙</div>
+    </header>
+    <div class="weather-app-icon">🌤 </div>
+    <p class="weather-type">Partly Sunny</p>
        </div>
        <div class="weather-app-temperature-container">
-        <div class="weather-app-icon">🌤 </div>
-        <div class="weather-app-temperature">12</div> 
-        <div class="weather-app-unit">°C</div> 
+        <p>28°</p>
+        <p>H : 32° L : 28°</p>
         </div>
       </div>
       </p>
-    </main>
-    <footer>
-      This Project was Coded by
-      <a href="https://github.com/Anny001-code" target="blank">Xomi</a>, and is
-      <a href="https://github.com/Anny001-code/Meteo" target="blank"
-        >open-sourced on Github</a
-      >
-      and hosted on
-      <a href="https://main--xomi-meteo.netlify.app/" target="_blank"
-        >Netlify</a>
-    </footer>
-  </div>
+      <div class="weather-feeling">
+      <p>FEELS LIKE 35°</p>
+      <P>HOT</P></div>
+      <div class="weather-index">
+        <p>UV INDEX 09</p>
+        <P>EXTREME</P>
+      </div>
   <script src="src/index.js"></script>
   </body>
 </html>
