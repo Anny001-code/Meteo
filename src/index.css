@@ -18,6 +18,7 @@ h1 {
 }
 .weather-type {
   text-align: center;
+  margin-bottom: 200px;
 }
 .weather-index {
   text-align: center;
