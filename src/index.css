@@ -11,31 +11,41 @@ header {
 }
 h1 {
   font-size: 15px;
-  margin-top: 0px;
-}
-.temperature {
-  font-size: 15px;
-}
-.weather-type {
-  text-align: center;
-  margin-bottom: 100px;
-}
-.weather-index {
-}
-.weather-feeling {
 }
 .weather-app-temperature-container {
   text-align: center;
   color: white;
 }
+.temperature {
+  font-size: 50px;
+  position: relative;
+  top: 280px;
+}
+
+.temp-detail {
+  position: relative;
+  top: 235px;
+}
+.weather-index {
+  position: relative;
+  top: 300px;
+  margin-left: 45px;
+}
+.weather-feeling {
+  position: relative;
+  top: 280px;
+  margin-left: 45px;
+}
 .weather-app-icon {
   font-size: 44px;
-
+  text-align: center;
+}
+.weather-type {
   text-align: center;
 }
 .weather-app-temperature {
   font-size: 88px;
-
+  text-align: center;
   font-weight: bold;
 }
 .rounded-corner-1 {
