@@ -26,16 +26,17 @@ h1 {
   position: relative;
   top: 235px;
 }
-.weather-index {
-  position: relative;
-  top: 300px;
-  margin-left: 45px;
-}
 .weather-feeling {
   position: relative;
   top: 280px;
   margin-left: 45px;
 }
+.weather-index {
+  position: relative;
+  top: 300px;
+  margin-left: 45px;
+}
+
 .weather-app-temperature {
   font-size: 88px;
   text-align: center;
@@ -43,25 +44,25 @@ h1 {
 }
 .rounded-corner-1 {
   background: black;
-  margin: 10px;
+  margin-top: 70px auto;
   border-radius: 60px;
   padding: 58px;
 }
 .rounded-corner-2 {
   background: white;
-  margin: 10px;
+  margin: 10px auto;
   border-radius: 60px;
   padding: 40px;
 }
 .rounded-corner-3 {
   background: red;
-  margin: 10px;
+  margin: 10px auto;
   border-radius: 60px;
   padding: 40px;
 }
 .rounded-corner-4 {
   background: white;
-  margin: auto;
+  margin: 10px auto;
   max-width: 30px;
   border-radius: 60px;
   padding: 2px;
