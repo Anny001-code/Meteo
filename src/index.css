@@ -19,7 +19,7 @@ h1 {
 .temperature {
   font-size: 50px;
   position: relative;
-  top: 280px;
+  top: 289px;
 }
 
 .temp-detail {
@@ -36,13 +36,6 @@ h1 {
   top: 280px;
   margin-left: 45px;
 }
-.weather-app-icon {
-  font-size: 44px;
-  text-align: center;
-}
-.weather-type {
-  text-align: center;
-}
 .weather-app-temperature {
   font-size: 88px;
   text-align: center;
@@ -50,19 +43,19 @@ h1 {
 }
 .rounded-corner-1 {
   background: black;
-  margin: 10px auto;
+  margin: 10px;
   border-radius: 60px;
   padding: 58px;
 }
 .rounded-corner-2 {
   background: white;
-  margin: auto;
+  margin: 10px;
   border-radius: 60px;
   padding: 40px;
 }
 .rounded-corner-3 {
   background: red;
-  margin: 10px auto;
+  margin: 10px;
   border-radius: 60px;
   padding: 40px;
 }
