@@ -55,25 +55,18 @@ main {
   text-align: center;
   color: white;
 }
-.temperature {
-  font-size: 50px;
-  position: relative;
-  top: 289px;
+.weather-unit-flex {
+  display: inline-flex;
+}
+.weather-app-temperature {
+  font-size: 88px;
+  line-height: 88px;
+  font-weight: bold;
 }
 
-.temp-detail {
-  position: relative;
-  top: 235px;
-}
-.weather-feeling {
-  position: relative;
-  top: 280px;
-  margin-left: 45px;
-}
-.weather-index {
-  position: relative;
-  top: 300px;
-  margin-left: 45px;
+.weather-app-unit {
+  margin-top: 6px;
+  font-size: 28px;
 }
 
 .weather-app-temperature {
