@@ -9,10 +9,7 @@ body {
   place-items: centre;
   border-radius: 16px;
 }
-header {
-  border-bottom: 1px solid #f9f7fe;
-  padding: 0 0 30px 0;
-}
+
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
@@ -30,21 +27,27 @@ header {
   border-radius: 60px;
   color: white;
 }
+main {
+  padding: 30px 0;
+}
+
+.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
 
 .weather-app-city {
-  text-align: center;
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
 }
-header {
-  display: inline;
+.weather-app-details {
+  font-size: 16px;
+  color: rgba(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
 }
-h1 {
-  font-size: 15px;
-}
-.weather-type {
-  text-align: center;
-  position: relative;
-  top: 280px;
-}
+
 .weather-app-temperature-container {
   text-align: center;
   color: white;
