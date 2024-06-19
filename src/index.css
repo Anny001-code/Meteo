@@ -57,23 +57,35 @@ main {
 }
 .weather-unit-flex {
   display: inline-flex;
+  top: 100px;
+  position: relative;
 }
 .weather-app-temperature {
   font-size: 88px;
   line-height: 88px;
   font-weight: bold;
 }
-
+.weather-humidity {
+  position: relative;
+  top: 100px;
+}
 .weather-app-unit {
   margin-top: 6px;
   font-size: 28px;
 }
 
-.weather-app-temperature {
-  font-size: 88px;
-  text-align: center;
-  font-weight: bold;
+.weather-feeling {
+  position: absolute;
+  top: 480px;
+  margin-left: 20px;
+  color: black;
 }
+.weather-index {
+  position: absolute;
+  top: 565px;
+  margin-left: 20px;
+}
+
 .rounded-corner-1 {
   background: black;
   margin: auto;
