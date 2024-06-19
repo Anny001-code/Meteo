@@ -75,13 +75,13 @@ main {
 
 .weather-feeling {
   position: absolute;
-  top: 600px;
+  top: 630px;
   margin-left: 20px;
   color: black;
 }
 .weather-index {
   position: absolute;
-  top: 680px;
+  top: 700px;
   margin-left: 20px;
 }
 
